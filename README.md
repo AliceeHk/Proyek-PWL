@@ -40,7 +40,7 @@ database connectivity.
 ├── signInPage.css           # Sign in styling
 ├── signup.php               # Sign up page
 ├── signUpPage.css           # Sign up styling
-└── wallpaper/
+└── wallpaper
 ```
 
 ## Installation
