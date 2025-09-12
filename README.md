@@ -1,6 +1,6 @@
 # Library Web App
 
-<img src="./wallpaper/SS/landing-preview.png" align="right"
+<img src="./wallpaper/landing-preview.png" align="right"
      alt="Library Web App Hero" width="200">
 
 Library Web App is a simple PHP and MySQL based project that allows users to
@@ -95,12 +95,12 @@ database connectivity.
 ## Screenshots
 
 <p align="center">
-  <img src="./wallpaper/SS/landing-preview.png" alt="Landing Page" width="700">
+  <img src="./wallpaper/landing-preview.png" alt="Landing Page" width="700">
 </p>
 
 <p align="center">
-  <img src="./wallpaper/SS/login-preview.png" alt="Login Page" width="350">
-  <img src="./wallpaper/SS/signup-preview.png" alt="Sign Up Page" width="350">
+  <img src="./wallpaper/login-preview.png" alt="Login Page" width="350">
+  <img src="./wallpaper/signup-preview.png" alt="Sign Up Page" width="350">
 </p>
 
 ## Future Improvements
@@ -111,10 +111,10 @@ database connectivity.
 * Admin dashboard for managing books and users.
 
 ## Authors
-
+  
+- Alfredy Rudi 
 - Alice Holly Kristy  
-- Nichole Angelly  
-- Alfredy Rudi  
+- Nichole Angelly 
 
 ## License
 
