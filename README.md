@@ -92,7 +92,7 @@ database connectivity.
 ## Screenshots
 
 <p align="center">
-  <img src="./Proyek%20PWL/wallpaper/landing-preview.png" alt="Landing Page" width="700">
+  <img src=".wallpaper/landing-preview.png" alt="Landing Page" width="700">
 </p>
 
 <p align="center">
