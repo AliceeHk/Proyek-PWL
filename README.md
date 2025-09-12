@@ -92,12 +92,12 @@ database connectivity.
 ## Screenshots
 
 <p align="center">
-  <img src=".wallpaper/landing-preview.png" alt="Landing Page" width="700">
+  <img src="./wallpaper/landing-preview.png" alt="Landing Page" width="700">
 </p>
 
 <p align="center">
-  <img src="./Proyek%20PWL/wallpaper/login-preview.png" alt="Login Page" width="350">
-  <img src="./Proyek%20PWL/wallpaper/signup-preview.png" alt="Sign Up Page" width="350">
+  <img src="./wallpaper/login-preview.png" alt="Login Page" width="350">
+  <img src="./wallpaper/signup-preview.png" alt="Sign Up Page" width="350">
 </p>
 
 ## Future Improvements
