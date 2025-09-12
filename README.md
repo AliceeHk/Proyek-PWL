@@ -1,8 +1,5 @@
 # Library Web App
 
-  <img src="./wallpaper/landing-preview.png" style="height:200px; object-fit:cover; object-position:top;">
-
-
 Library Web App is a simple PHP and MySQL based project that allows users to
 browse books, filter by categories, and manage accounts with sign up and sign in
 pages. It demonstrates integration of a landing page, authentication system, and
