@@ -41,7 +41,6 @@ database connectivity.
 ├── signup.php               # Sign up page
 ├── signUpPage.css           # Sign up styling
 └── wallpaper/
-    └── SS/                  # Screenshots
 ```
 
 ## Installation
