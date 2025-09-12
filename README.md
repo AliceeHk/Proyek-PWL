@@ -1,8 +1,7 @@
-[README.md](https://github.com/user-attachments/files/22299808/README.md)
 # Online Library Platform
 
 An online library platform with a landing page, sign-in, and sign-up system built using **PHP, JavaScript, HTML, and CSS**.  
-This project also integrates **[Size Limit](https://github.com/ai/size-limit)** to ensure optimized JavaScript performance by monitoring bundle sizes and execution time.
+This project also integrates **Size Limit** to ensure optimized JavaScript performance by monitoring bundle sizes and execution time.
 
 ---
 
@@ -38,7 +37,7 @@ This project also integrates **[Size Limit](https://github.com/ai/size-limit)** 
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Backend:** PHP  
 - **Styling:** Custom CSS (`landingpage.css`, `signInPage.css`, `signUpPage.css`)  
-- **Performance Tooling:** [Size Limit](https://github.com/ai/size-limit)  
+- **Performance Tooling:**
 
 ---
 
