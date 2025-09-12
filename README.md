@@ -76,7 +76,7 @@ This project also integrates **Size Limit** to ensure optimized JavaScript perfo
    php -S localhost:8000
    ```
 
-5. Open [http://localhost:8000/landingpage.php](http://localhost:8000/landingpage.php) in your browser.  
+5. Open [http://localhost:8000/landingpage.php] in your browser.  
 
 ---
 
@@ -128,7 +128,7 @@ jobs:
 ## Credits
 
 - **UI & Styling:** Custom CSS (`Platypi` font, hover effects, responsive design)  
-- **Performance Tool:** [Size Limit](https://github.com/ai/size-limit) – by [Evil Martians](https://evilmartians.com/)  
+- **Performance Tool:** [Size Limit} – by [Evil Martians]  
 - **Logo & Icons:** Custom assets  
 
 ---
