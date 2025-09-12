@@ -1,7 +1,7 @@
 # Library Web App
 
 <img src="./wallpaper/landing-preview.png" align="right"
-     alt="Library Web App Hero" width="200" max-height="200">
+     alt="Library Web App Hero" width="200" height="200">
 
 Library Web App is a simple PHP and MySQL based project that allows users to
 browse books, filter by categories, and manage accounts with sign up and sign in
