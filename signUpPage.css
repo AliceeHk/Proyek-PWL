@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: "Platypi";
+    background-image: url(wallpaper/backgroundLogin.png);
+    background-size: 110%;
+    background-position-x: 80%;
+}
+
+#login {
+    width: 500px;
+    outline: none;
+    height: 600px;
+    justify-items: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 20px;
+    justify-self: start;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+h1 {
+    justify-self: center;
+}
+
+input {
+    font-family: "Platypi";
+    font-size: 16px;
+    padding: 18px 20px 18px;
+    min-width: 350px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 3px 3px 10px hwb(0 0% 100% / 0.25);
+    color: hwb(0 0% 100% / 0.4);
+    margin-top: 18px;
+}
+
+input:focus {
+  border: 1.5px solid hsla(0, 0%, 0%, 0.5);
+  outline: none;
+}
+
+button {
+    font-family: "Platypi";
+    font-size: 23px;
+    padding: 13px 0px 13px;
+    min-width: 400px;
+    border-radius: 15px;
+    border: none;
+    background-color: #E8E8E8;  
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #c3c3c3;
+}
+
+p {
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
