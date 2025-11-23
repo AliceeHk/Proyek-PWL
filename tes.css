@@ -1,0 +1,140 @@
+body {
+    background: #e6f0f7 !important; 
+    font-family: "Georgia", serif;
+    background: #e6f0f7;  /* warna halaman utama */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.open-btn {
+    padding: 12px 22px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* OVERLAY UNIVERSAL */
+.popup-overlay {
+    position: fixed;
+    inset: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(4px); /* efek blur */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* POPUP FORM */
+.popup-box {
+    background: #e6f0f7;
+    width: 70%;
+    max-width: 800px;
+    padding: 25px 35px;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.close-btn {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.form-row {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row input,
+.form-row select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.upload-box {
+    border: 2px dashed #bbb;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.note {
+    font-size: 14px;
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+.quantity-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.borrow-btn {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* REMINDER POPUP */
+.reminder-box {
+    width: 380px;
+    padding: 35px;
+    background: #91a8be;
+    text-align: center;
+    border-radius: 14px;
+    position: relative;
+    color: white;
+}
+
+.reminder-title {
+    margin-bottom: 10px;
+}
+
+.reminder-text {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.dot-indicator {
+    margin: 15px 0;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    background: white;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 4px;
+    opacity: 0.4;
+}
+
+.dot.active {
+    opacity: 1;
+}
+
+.next-btn {
+    padding: 10px 25px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
