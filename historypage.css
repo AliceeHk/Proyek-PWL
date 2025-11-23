@@ -1,0 +1,145 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #eaf4fc;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #6fa8dc;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.header a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: 'jomhuria';
+}
+
+.header a.active {
+  background-color: #ffffff96;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.header input {
+  border-radius: 10px;
+  border: none;
+  padding: 15px 20px;
+}
+
+.header img {
+  width: 300px; 
+}
+
+.gambar {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  border-bottom: 10px solid #6fa8dc;
+}
+
+.gambar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.gambar h1 {
+  src:url('font/platypi/Platypi-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 100;
+  position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Platypi', serif;
+  font-size: 150px;
+  font-weight: 900;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+  letter-spacing: 3px;
+}
+
+.isi {
+  background-color: #dcecf9;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.judul {
+  display: inline-block;
+  background-color: #B4D3E6;  
+  color: #1a4d8f;             
+  font-weight: 700;
+  font-size: 35px;            
+  padding: 12px 25px;
+  border-radius: 10px;       
+  font-family: 'Platypi';
+  margin-bottom: 10px;     
+}
+
+.buku {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  background-color: #FFFFFF;
+  width: 95%;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buku img {
+  width: 220px;
+  height: 300px;
+  border-radius: 10px;
+  margin-right: 25px;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+  
+}
+
+.info h3 {
+  margin: 0;
+  font-size: 40px; 
+  color: #222;
+  font-weight: 700;
+}
+
+.info p {
+  margin: 5px 0;
+  color: #444;
+  font-size: 20px;
+}
+
+.tombol {
+   font-family: 'Jomhuria';
+  background-color: #3c78d8;
+  color: white;
+  border: none;
+  padding: 16px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 250px;
+}
+
+.tombol:hover {
+  background-color: #2c5dab;
+  transform: scale(1.05);
+}

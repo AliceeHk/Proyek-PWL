@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: "Platypi";
+    background-image: url(../../wallpaper/backgroundLogin.png);
+    background-size: 110%;
+    background-position-x: 80%;
+}
+
+#login {
+    width: 500px;
+    outline: none;
+    height: 600px;
+    justify-items: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 20px;
+    justify-self: end;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    font-family: "Platypi";
+    font-size: 16px;
+    padding: 18px 20px 18px;
+    width: 350px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 3px 3px 10px hwb(0 0% 100% / 0.25);
+    color: hwb(0 0% 100% / 0.4);
+}
+
+input[type=password] {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input:focus {
+  border: 1.5px solid hsla(0, 0%, 0%, 0.5);
+  outline: none;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+button {
+    font-family: "Platypi";
+    font-size: 23px;
+    padding: 13px 0px 13px;
+    min-width: 400px;
+    border-radius: 15px;
+    border: none;
+    background-color: #E8E8E8;
+    margin-left: 0px;
+}
+
+button:hover {
+    background-color: #d6d6d6;
+}
+
+h4 {
+    margin: 20px 0 20px;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.loginSosmed button{
+    max-height: 200px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    background-color: white;
+    box-shadow: 3px 3px 10px hwb(0 0% 100% / 0.25);
+    font-size: 20px;
+}
+
+.loginSosmed button:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.loginGoogle img {
+    width: 20px;
+    margin-left: -0px;
+    margin-right: 50px;
+}
+

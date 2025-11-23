@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popUp.css" />
+</head>
+<body>
+    <button id="openPopup" class="open-btn">Pinjam Buku</button>
+
+<!-- POPUP -->
+<div id="popup" class="popup-overlay">
+    <div class="popup-box">
+        <span id="closePopup" class="close-btn">&times;</span>
+
+        <h2>Proses Peminjaman</h2>
+
+        <div class="form-row">
+            <label>Tanggal Peminjaman</label>
+            <input type="date">
+        </div>
+
+        <div class="form-row">
+            <label>Lama Peminjaman</label>
+            <select>
+                <option>Pilih Lama Peminjaman</option>
+                <option>7 Hari</option>
+                <option>14 Hari</option>
+                <option>21 Hari</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label>Foto KTP/KIA</label>
+            <div class="upload-box">
+                <input type="file">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <label>Nomor Telepon</label>
+            <input type="text" placeholder="Masukan Nomor Telepon">
+        </div>
+
+        <p class="note">
+            "Jika pengambilan buku lambat lebih dari 3 hari, maka peminjaman otomatis dibatalkan.
+             Dan pengembalian buku lebih dari 5 hari akan mendapat denda 2rb/hari."
+        </p>
+
+        <h3>In Stock</h3>
+
+        <div class="quantity-box">
+            <span>Quantity:</span>
+            <button id="minusBtn">−</button>
+            <span id="qtyValue">1</span>
+            <button id="plusBtn">+</button>
+        </div>
+
+        <button class="borrow-btn">Borrow Now</button>
+    </div>
+</div>
+
+<script src="popUp.js"></script>
+</body>
+</html>
